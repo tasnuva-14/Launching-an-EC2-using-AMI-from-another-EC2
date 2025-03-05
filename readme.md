@@ -44,16 +44,16 @@ This document provides a step-by-step guide on how to create an Amazon EC2 insta
 ### 4. **Create an AMI Image**
 - Created an AMI image from the configured EC2 instance via the AWS Management Console:
 
-  ![Preview](craete image.PNG)
+  ![Preview](craete_image.PNG)
 
 ### Verify the craeted AMI:
 
-  ![Preview](ami created.PNG)  
+  ![Preview](ami_created.PNG)  
 
 ### 5. **Launch a New EC2 Instance Using the AMI**
 - Created a new EC2 instance from the AMI using the AWS Console:
 
-  ![Preview](ami of my own.PNG)
+  ![Preview](ami_of_my_own.PNG)
 
 - Verified that the file and Nginx installation persisted in the new instance.
 
