@@ -36,17 +36,24 @@ This document provides a step-by-step guide on how to create an Amazon EC2 insta
   
 - Verified Nginx installation by accessing the instance's public IP in a web browser.
 
-- Commands used:
+### Commands used:
 
+![Preview](commands.PNG)
 
 
 ### 4. **Create an AMI Image**
-- Created an AMI image from the configured EC2 instance via the AWS Management Console or CLI:
-  
+- Created an AMI image from the configured EC2 instance via the AWS Management Console:
+
+  ![Preview](craete image.PNG)
+
+### Verify the craeted AMI:
+
+  ![Preview](ami created.PNG)  
 
 ### 5. **Launch a New EC2 Instance Using the AMI**
-- Created a new EC2 instance from the AMI using the AWS Console or CLI:
-  
+- Created a new EC2 instance from the AMI using the AWS Console:
+
+  ![Preview](ami of my own.PNG)
 
 - Verified that the file and Nginx installation persisted in the new instance.
 
@@ -59,6 +66,7 @@ This document provides a step-by-step guide on how to create an Amazon EC2 insta
 
   sudo systemctl status nginx
   
+  ![Preview](successful.PNG)
 
 ## Conclusion
 By following these steps, we successfully created a customized EC2 instance, converted it into an AMI, and used that AMI to launch a new EC2 instance with the same configurations.
