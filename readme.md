@@ -27,7 +27,7 @@ This document provides a step-by-step guide on how to create an Amazon EC2 insta
 
 - Installed Nginx:
  
-  sudo apt install -y nginx   # Ubuntu
+  sudo apt install -y nginx
   
 - Started and enabled the Nginx service:
 
